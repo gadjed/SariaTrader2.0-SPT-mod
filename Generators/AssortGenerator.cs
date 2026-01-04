@@ -7,6 +7,8 @@ using SPTarkov.Server.Core.Helpers;
 using SPTarkov.Server.Core.Models.Eft.Common.Tables;
 using SPTarkov.Server.Core.Models.Enums;
 using SPTarkov.Server.Core.Models.Utils;
+using SPTarkov.Server.Core.Services;
+using SPTarkov.Server.Core.Utils;
 using Path = System.IO.Path;
 
 namespace SariaShop.Generators;
@@ -54,9 +56,22 @@ public class ItemData
 }
 
 [Injectable(TypePriority = OnLoadOrder.PostDBModLoader + 1)]
-public class SariaAssortGenerator(SariaFluentTraderAssortHelper assortUtils, ModHelper modHelper, ISptLogger<SariaAssortGenerator> logger)
+public class SariaAssortGenerator(
+    SariaFluentTraderAssortHelper assortUtils,
+    ModHelper modHelper,
+    DatabaseService databaseService,
+    RandomUtil randomUtil,
+    ItemHelper itemHelper,
+    ISptLogger<SariaAssortGenerator> logger
+)
 {
     private Dictionary<string, PresetData>? _presetMap;
+    private static ModConfig _modConfig;
+
+    public void PassConfig(ModConfig config)
+    {
+        _modConfig = config;
+    }
 
     private void LoadPresetMap()
     {
@@ -299,6 +314,49 @@ public class SariaAssortGenerator(SariaFluentTraderAssortHelper assortUtils, Mod
         AddPresetByName("Vest Ars Arma A18 Skanda Standard", Money.ROUBLES, 229999, 4);
         AddPresetByName("Body armor BNTI Zhuk 6a Standard", Money.ROUBLES, 304999, 4);
         #endregion
+
+        if (_modConfig?.RandomizeStockCount == true)
+        {
+            RandomizeStock();
+        }
+    }
+
+    private void RandomizeStock()
+    {
+        var trader = databaseService.GetTrader("66f4db5ca4958508883d700c");
+        var traderAssortItems = trader?.Assort.Items;
+
+        if (traderAssortItems == null)
+        {
+            logger.Warning("Unable to randomize stock: trader assort items not found");
+            return;
+        }
+
+        foreach (var item in traderAssortItems)
+        {
+            if (item.ParentId != "hideout")
+            {
+                continue;
+            }
+
+            item.Upd.UnlimitedCount = false;
+
+            var isOutOfStock = randomUtil.GetChance100(25);
+            if (isOutOfStock)
+            {
+                item.Upd.StackObjectsCount = 0;
+                continue;
+            }
+
+            if (itemHelper.IsOfBaseclass(item.Template, BaseClasses.AMMO))
+            {
+                item.Upd.StackObjectsCount = randomUtil.RandInt(1, 300);
+            }
+            else
+            {
+                item.Upd.StackObjectsCount = randomUtil.RandInt(1, 10);
+            }
+        }
     }
 
     private void AddPresetByName(string presetName, string currency, int cost, int loyaltyLevel)

@@ -11,6 +11,7 @@ using SPTarkov.Server.Core.Models.Spt.Mod;
 using SPTarkov.Server.Core.Models.Utils;
 using SPTarkov.Server.Core.Routers;
 using SPTarkov.Server.Core.Servers;
+using SPTarkov.Server.Core.Services;
 using Path = System.IO.Path;
 
 namespace SariaShop;
@@ -36,9 +37,9 @@ public class Saria(
     ModHelper modHelper,
     ImageRouter imageRouter,
     ConfigServer configServer,
+    DatabaseService databaseService,
     SariaTraderHelper addCustomTraderHelper,
-    SariaAssortGenerator sariaGenerator,
-    CustomDynamicRouter dynamicRouter
+    SariaAssortGenerator sariaGenerator
 ) : IOnLoad
 {
     private readonly TraderConfig _traderConfig = configServer.GetConfig<TraderConfig>();
@@ -62,14 +63,48 @@ public class Saria(
             "Saria",
             "A soldier with questionable motives, an unknown background, and a large supply of military goods. She's willing to trade, for a price of course."
         );
-        sariaGenerator.CreateSariaAssort();
 
         config = modHelper.GetJsonDataFromFile<ModConfig>(pathToMod, "config.json");
-        dynamicRouter.PassConfig(config);
+        sariaGenerator.PassConfig(config);
+        sariaGenerator.CreateSariaAssort();
+
+        ApplyLoyaltyLevelChanges(traderBase.Id);
 
         logger.LogWithColor("[Saria] Mission accomplished, returning to base.", LogTextColor.Cyan);
 
         return Task.CompletedTask;
+    }
+
+    private void ApplyLoyaltyLevelChanges(string traderId)
+    {
+        if (config == null)
+        {
+            return;
+        }
+
+        var trader = databaseService.GetTrader(traderId);
+        var traderLoyaltyLevels = trader?.Base.LoyaltyLevels;
+
+        if (traderLoyaltyLevels == null)
+        {
+            return;
+        }
+
+        if (config.RemoveLevelLlRequirements)
+        {
+            foreach (var level in traderLoyaltyLevels)
+            {
+                level.MinLevel = 1;
+            }
+        }
+
+        if (config.RemoveMoneyLlRequirements)
+        {
+            foreach (var level in traderLoyaltyLevels)
+            {
+                level.MinSalesSum = 0;
+            }
+        }
     }
 }
 
