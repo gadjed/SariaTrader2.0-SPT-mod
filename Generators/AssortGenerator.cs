@@ -85,7 +85,6 @@ public class SariaAssortGenerator(
         var presetMapPath = Path.Combine(pathToMod, "Assets");
 
         _presetMap = modHelper.GetJsonDataFromFile<Dictionary<string, PresetData>>(presetMapPath, "presetMap.json");
-        logger.Info($"Loaded {_presetMap.Count} presets from presetMap.json");
     }
 
     public void CreateSariaAssort()
