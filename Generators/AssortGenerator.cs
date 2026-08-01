@@ -94,170 +94,170 @@ public class SariaAssortGenerator(
 
         // LL1 — early survival kit, soft targets, starter kits
         #region LL1 Meds
-        assortUtils.CreateSingleItemOffer("5751a25924597722c463c472", 999999, 1, 1_500, Money.ROUBLES, saria); // Army bandage
-        assortUtils.CreateSingleItemOffer("60098af40accd37ef2175f27", 999999, 1, 4_000, Money.ROUBLES, saria); // CAT
-        assortUtils.CreateSingleItemOffer("5af0454c86f7746bf20992e8", 999999, 1, 3_500, Money.ROUBLES, saria); // Alu splint
-        assortUtils.CreateSingleItemOffer("544fb3f34bdc2d03748b456a", 999999, 1, 12_000, Money.ROUBLES, saria); // Morphine
-        assortUtils.CreateSingleItemOffer("5d02778e86f774203e7dedbe", 999999, 1, 25_000, Money.ROUBLES, saria); // CMS
-        assortUtils.CreateSingleItemOffer("544fb45d4bdc2dee738b4568", 999999, 1, 18_000, Money.ROUBLES, saria); // Salewa
+        assortUtils.CreateSingleItemOffer("5751a25924597722c463c472", 999999, 1, 1_700, Money.ROUBLES, saria); // Army bandage
+        assortUtils.CreateSingleItemOffer("60098af40accd37ef2175f27", 999999, 1, 4_500, Money.ROUBLES, saria); // CAT
+        assortUtils.CreateSingleItemOffer("5af0454c86f7746bf20992e8", 999999, 1, 3_900, Money.ROUBLES, saria); // Alu splint
+        assortUtils.CreateSingleItemOffer("544fb3f34bdc2d03748b456a", 999999, 1, 13_500, Money.ROUBLES, saria); // Morphine
+        assortUtils.CreateSingleItemOffer("5d02778e86f774203e7dedbe", 999999, 1, 28_000, Money.ROUBLES, saria); // CMS
+        assortUtils.CreateSingleItemOffer("544fb45d4bdc2dee738b4568", 999999, 1, 20_000, Money.ROUBLES, saria); // Salewa
         #endregion
 
         #region LL1 Grenades
-        assortUtils.CreateSingleItemOffer("5448be9a4bdc2dfd2f8b456a", 999999, 1, 8_000, Money.ROUBLES, saria); // RGD-5
-        assortUtils.CreateSingleItemOffer("5710c24ad2720bc3458b45a3", 999999, 1, 12_000, Money.ROUBLES, saria); // F-1
+        assortUtils.CreateSingleItemOffer("5448be9a4bdc2dfd2f8b456a", 999999, 1, 9_000, Money.ROUBLES, saria); // RGD-5
+        assortUtils.CreateSingleItemOffer("5710c24ad2720bc3458b45a3", 999999, 1, 13_500, Money.ROUBLES, saria); // F-1
         #endregion
 
         #region LL1 Ammo
-        assortUtils.CreateSingleItemOffer("56d59d3ad2720bdb418b4577", 999999, 1, 45, Money.ROUBLES, saria); // 9x19 Pst
-        assortUtils.CreateSingleItemOffer("56dff2ced2720bb4668b4567", 999999, 1, 90, Money.ROUBLES, saria); // 5.45 PP
-        assortUtils.CreateSingleItemOffer("59e6906286f7746c9f75e847", 999999, 1, 130, Money.ROUBLES, saria); // 5.56 M856A1
-        assortUtils.CreateSingleItemOffer("5e023e53d4353e3302577c4c", 999999, 1, 110, Money.ROUBLES, saria); // 7.62x51 BCP FMJ
-        assortUtils.CreateSingleItemOffer("5fbe3ffdf8b6a877a729ea82", 999999, 1, 160, Money.ROUBLES, saria); // .300 BCP FMJ
+        assortUtils.CreateSingleItemOffer("56d59d3ad2720bdb418b4577", 999999, 1, 50, Money.ROUBLES, saria); // 9x19 Pst
+        assortUtils.CreateSingleItemOffer("56dff2ced2720bb4668b4567", 999999, 1, 100, Money.ROUBLES, saria); // 5.45 PP
+        assortUtils.CreateSingleItemOffer("59e6906286f7746c9f75e847", 999999, 1, 150, Money.ROUBLES, saria); // 5.56 M856A1
+        assortUtils.CreateSingleItemOffer("5e023e53d4353e3302577c4c", 999999, 1, 125, Money.ROUBLES, saria); // 7.62x51 BCP FMJ
+        assortUtils.CreateSingleItemOffer("5fbe3ffdf8b6a877a729ea82", 999999, 1, 180, Money.ROUBLES, saria); // .300 BCP FMJ
         #endregion
 
         #region LL1 Optics
-        assortUtils.CreateSingleItemOffer("59f9d81586f7744c7506ee62", 999999, 1, 28_000, Money.ROUBLES, saria); // Vortex Razor UH-1
+        assortUtils.CreateSingleItemOffer("59f9d81586f7744c7506ee62", 999999, 1, 31_500, Money.ROUBLES, saria); // Vortex Razor UH-1
         #endregion
 
         #region LL1 Magazines (top capacity per LL1 caliber)
-        assortUtils.CreateSingleItemOffer("5a718f958dc32e00094b97e7", 999999, 1, 28_000, Money.ROUBLES, saria); // 9x19 Glock SGMT 50
-        assortUtils.CreateSingleItemOffer("55d482194bdc2d1d4e8b456b", 999999, 1, 32_000, Money.ROUBLES, saria); // 5.45 6L31 60
-        assortUtils.CreateSingleItemOffer("5aaa5dfee5b5b000140293d3", 999999, 1, 8_000, Money.ROUBLES, saria); // 5.56 PMAG 30 GEN M3
-        assortUtils.CreateSingleItemOffer("59c1383d86f774290a37e0ca", 999999, 1, 38_000, Money.ROUBLES, saria); // 5.56/.300 PMAG D-60
-        assortUtils.CreateSingleItemOffer("5a3501acc4a282000d72293a", 999999, 1, 22_000, Money.ROUBLES, saria); // 7.62x51 PMAG 20 SR-LR
-        assortUtils.CreateSingleItemOffer("6761770e48fa5c377e06fc3c", 999999, 1, 45_000, Money.ROUBLES, saria); // 7.62x51 X-25 50 drum
+        assortUtils.CreateSingleItemOffer("5a718f958dc32e00094b97e7", 999999, 1, 31_500, Money.ROUBLES, saria); // 9x19 Glock SGMT 50
+        assortUtils.CreateSingleItemOffer("55d482194bdc2d1d4e8b456b", 999999, 1, 36_000, Money.ROUBLES, saria); // 5.45 6L31 60
+        assortUtils.CreateSingleItemOffer("5aaa5dfee5b5b000140293d3", 999999, 1, 9_000, Money.ROUBLES, saria); // 5.56 PMAG 30 GEN M3
+        assortUtils.CreateSingleItemOffer("59c1383d86f774290a37e0ca", 999999, 1, 43_000, Money.ROUBLES, saria); // 5.56/.300 PMAG D-60
+        assortUtils.CreateSingleItemOffer("5a3501acc4a282000d72293a", 999999, 1, 25_000, Money.ROUBLES, saria); // 7.62x51 PMAG 20 SR-LR
+        assortUtils.CreateSingleItemOffer("6761770e48fa5c377e06fc3c", 999999, 1, 51_000, Money.ROUBLES, saria); // 7.62x51 X-25 50 drum
         #endregion
 
         #region LL1 Headphones
-        assortUtils.CreateSingleItemOffer("5645bcc04bdc2d363b8b4572", 999999, 1, 28_000, Money.ROUBLES, saria); // ComTac 2
+        assortUtils.CreateSingleItemOffer("5645bcc04bdc2d363b8b4572", 999999, 1, 31_500, Money.ROUBLES, saria); // ComTac 2
         #endregion
 
         #region LL1 Weapon Presets
-        AddPresetByName("vector_9_default", Money.ROUBLES, 65_000, 1);
-        AddPresetByName("MP5_SilentOps", Money.ROUBLES, 72_000, 1);
-        AddPresetByName("mcx_short_default", Money.ROUBLES, 85_000, 1);
-        AddPresetByName("DTMDR308_DEFAULT", Money.ROUBLES, 95_000, 1);
-        AddPresetByName("REM700_AICS", Money.ROUBLES, 88_000, 1);
+        AddPresetByName("vector_9_default", Money.ROUBLES, 73_000, 1);
+        AddPresetByName("MP5_SilentOps", Money.ROUBLES, 81_000, 1);
+        AddPresetByName("mcx_short_default", Money.ROUBLES, 96_000, 1);
+        AddPresetByName("DTMDR308_DEFAULT", Money.ROUBLES, 107_000, 1);
+        AddPresetByName("REM700_AICS", Money.ROUBLES, 99_000, 1);
         #endregion
 
         #region LL1 Gear Presets
-        AddPresetByName("Helmet LShZ Standart", Money.ROUBLES, 35_000, 1);
-        AddPresetByName("Helmet Diamond Age Bastion Standart", Money.ROUBLES, 55_000, 1);
-        AddPresetByName("Vest ANA Tactical M1 Standard", Money.ROUBLES, 70_000, 1);
+        AddPresetByName("Helmet LShZ Standart", Money.ROUBLES, 40_000, 1);
+        AddPresetByName("Helmet Diamond Age Bastion Standart", Money.ROUBLES, 62_000, 1);
+        AddPresetByName("Vest ANA Tactical M1 Standard", Money.ROUBLES, 79_000, 1);
         #endregion
 
         // LL2 — mid-pen ammo, solid kits, impact nades start
         #region LL2 Meds
-        assortUtils.CreateSingleItemOffer("590c678286f77426c9660122", 999999, 2, 28_000, Money.ROUBLES, saria); // IFAK
-        assortUtils.CreateSingleItemOffer("5d02797c86f774203f38e30a", 999999, 2, 65_000, Money.ROUBLES, saria); // Surv12
-        assortUtils.CreateSingleItemOffer("5c0e530286f7747fa1419862", 999999, 2, 35_000, Money.ROUBLES, saria); // Propital
-        assortUtils.CreateSingleItemOffer("5e8488fa988a8701445df1e4", 999999, 2, 22_000, Money.ROUBLES, saria); // CALOK-B
+        assortUtils.CreateSingleItemOffer("590c678286f77426c9660122", 999999, 2, 31_500, Money.ROUBLES, saria); // IFAK
+        assortUtils.CreateSingleItemOffer("5d02797c86f774203f38e30a", 999999, 2, 73_000, Money.ROUBLES, saria); // Surv12
+        assortUtils.CreateSingleItemOffer("5c0e530286f7747fa1419862", 999999, 2, 40_000, Money.ROUBLES, saria); // Propital
+        assortUtils.CreateSingleItemOffer("5e8488fa988a8701445df1e4", 999999, 2, 25_000, Money.ROUBLES, saria); // CALOK-B
         #endregion
 
         #region LL2 Grenades
-        assortUtils.CreateSingleItemOffer("58d3db5386f77426186285a0", 999999, 2, 15_000, Money.ROUBLES, saria); // M67
-        assortUtils.CreateSingleItemOffer("5e32f56fcb6d5863cc5e5ee4", 999999, 2, 18_000, Money.ROUBLES, saria); // VOG-17
+        assortUtils.CreateSingleItemOffer("58d3db5386f77426186285a0", 999999, 2, 17_000, Money.ROUBLES, saria); // M67
+        assortUtils.CreateSingleItemOffer("5e32f56fcb6d5863cc5e5ee4", 999999, 2, 20_000, Money.ROUBLES, saria); // VOG-17
         #endregion
 
         #region LL2 Ammo
-        assortUtils.CreateSingleItemOffer("5c925fa22e221601da359b7b", 999999, 2, 180, Money.ROUBLES, saria); // 9x19 AP 6.3
-        assortUtils.CreateSingleItemOffer("56dff061d2720bb5668b4567", 999999, 2, 220, Money.ROUBLES, saria); // 5.45 BT
-        assortUtils.CreateSingleItemOffer("54527ac44bdc2d36668b4567", 999999, 2, 260, Money.ROUBLES, saria); // 5.56 M855A1
-        assortUtils.CreateSingleItemOffer("59e0d99486f7744a32234762", 999999, 2, 300, Money.ROUBLES, saria); // 7.62x39 BP
-        assortUtils.CreateSingleItemOffer("58dd3ad986f77403051cba8f", 999999, 2, 340, Money.ROUBLES, saria); // 7.62x51 M80
-        assortUtils.CreateSingleItemOffer("619636be6db0f2477964e710", 999999, 2, 380, Money.ROUBLES, saria); // .300 M62
+        assortUtils.CreateSingleItemOffer("5c925fa22e221601da359b7b", 999999, 2, 200, Money.ROUBLES, saria); // 9x19 AP 6.3
+        assortUtils.CreateSingleItemOffer("56dff061d2720bb5668b4567", 999999, 2, 250, Money.ROUBLES, saria); // 5.45 BT
+        assortUtils.CreateSingleItemOffer("54527ac44bdc2d36668b4567", 999999, 2, 290, Money.ROUBLES, saria); // 5.56 M855A1
+        assortUtils.CreateSingleItemOffer("59e0d99486f7744a32234762", 999999, 2, 340, Money.ROUBLES, saria); // 7.62x39 BP
+        assortUtils.CreateSingleItemOffer("58dd3ad986f77403051cba8f", 999999, 2, 380, Money.ROUBLES, saria); // 7.62x51 M80
+        assortUtils.CreateSingleItemOffer("619636be6db0f2477964e710", 999999, 2, 430, Money.ROUBLES, saria); // .300 M62
         #endregion
 
         #region LL2 Optics
-        assortUtils.CreateSingleItemOffer("617151c1d92c473c770214ab", 999999, 2, 95_000, Money.ROUBLES, saria); // S&B PM II 1-8x24
+        assortUtils.CreateSingleItemOffer("617151c1d92c473c770214ab", 999999, 2, 107_000, Money.ROUBLES, saria); // S&B PM II 1-8x24
         #endregion
 
         #region LL2 Weapon Presets
-        AddPresetByName("HK416 default", Money.ROUBLES, 110_000, 2);
-        AddPresetByName("M4A1_USASOC2", Money.ROUBLES, 125_000, 2);
-        AddPresetByName("MP7_DEVGRU", Money.ROUBLES, 115_000, 2);
-        AddPresetByName("knight_mk47", Money.ROUBLES, 130_000, 2);
-        AddPresetByName("M1A_DEFAULT", Money.ROUBLES, 135_000, 2);
+        AddPresetByName("HK416 default", Money.ROUBLES, 124_000, 2);
+        AddPresetByName("M4A1_USASOC2", Money.ROUBLES, 141_000, 2);
+        AddPresetByName("MP7_DEVGRU", Money.ROUBLES, 130_000, 2);
+        AddPresetByName("knight_mk47", Money.ROUBLES, 146_000, 2);
+        AddPresetByName("M1A_DEFAULT", Money.ROUBLES, 152_000, 2);
         #endregion
 
         #region LL2 Gear Presets
-        AddPresetByName("Body armor Korund VM Standard", Money.ROUBLES, 95_000, 2);
-        AddPresetByName("Body armor HighCom Trooper Standard", Money.ROUBLES, 110_000, 2);
-        AddPresetByName("Helmet HighCom Striker ACHHC IIIA Black Standart", Money.ROUBLES, 55_000, 2);
+        AddPresetByName("Body armor Korund VM Standard", Money.ROUBLES, 107_000, 2);
+        AddPresetByName("Body armor HighCom Trooper Standard", Money.ROUBLES, 124_000, 2);
+        AddPresetByName("Helmet HighCom Striker ACHHC IIIA Black Standart", Money.ROUBLES, 62_000, 2);
         #endregion
 
         #region LL2 Backpacks
-        assortUtils.CreateSingleItemOffer("545cdae64bdc2d39198b4568", 999999, 2, 55_000, Money.ROUBLES, saria); // Tri-Zip
+        assortUtils.CreateSingleItemOffer("545cdae64bdc2d39198b4568", 999999, 2, 62_000, Money.ROUBLES, saria); // Tri-Zip
         #endregion
 
         // LL3 — hard-pen ammo, high-tier kits, impact RGN/RGO + VOG
         #region LL3 Meds
-        assortUtils.CreateSingleItemOffer("60098ad7c2240c0fe85c570a", 999999, 3, 48_000, Money.ROUBLES, saria); // AFAK
-        assortUtils.CreateSingleItemOffer("5c0e533786f7747fa23f4d47", 999999, 3, 32_000, Money.ROUBLES, saria); // Zagustin
-        assortUtils.CreateSingleItemOffer("5c0e534186f7747fa1419867", 999999, 3, 55_000, Money.ROUBLES, saria); // eTG-change
+        assortUtils.CreateSingleItemOffer("60098ad7c2240c0fe85c570a", 999999, 3, 54_000, Money.ROUBLES, saria); // AFAK
+        assortUtils.CreateSingleItemOffer("5c0e533786f7747fa23f4d47", 999999, 3, 36_000, Money.ROUBLES, saria); // Zagustin
+        assortUtils.CreateSingleItemOffer("5c0e534186f7747fa1419867", 999999, 3, 62_000, Money.ROUBLES, saria); // eTG-change
         #endregion
 
         #region LL3 Grenades
-        assortUtils.CreateSingleItemOffer("617fd91e5539a84ec44ce155", 999999, 3, 22_000, Money.ROUBLES, saria); // RGN
-        assortUtils.CreateSingleItemOffer("618a431df1eb8e24b8741deb", 999999, 3, 25_000, Money.ROUBLES, saria); // RGO
-        assortUtils.CreateSingleItemOffer("5656eb674bdc2d35148b457c", 999999, 3, 14_000, Money.ROUBLES, saria); // VOG-25
-        assortUtils.CreateSingleItemOffer("62e7e7bbe6da9612f743f1e0", 999999, 3, 55_000, Money.ROUBLES, saria); // GP-25
+        assortUtils.CreateSingleItemOffer("617fd91e5539a84ec44ce155", 999999, 3, 25_000, Money.ROUBLES, saria); // RGN
+        assortUtils.CreateSingleItemOffer("618a431df1eb8e24b8741deb", 999999, 3, 28_000, Money.ROUBLES, saria); // RGO
+        assortUtils.CreateSingleItemOffer("5656eb674bdc2d35148b457c", 999999, 3, 16_000, Money.ROUBLES, saria); // VOG-25
+        assortUtils.CreateSingleItemOffer("62e7e7bbe6da9612f743f1e0", 999999, 3, 62_000, Money.ROUBLES, saria); // GP-25
         #endregion
 
         #region LL3 Ammo
-        assortUtils.CreateSingleItemOffer("5efb0da7a29a85116f6ea05f", 999999, 3, 320, Money.ROUBLES, saria); // 9x19 PBP
-        assortUtils.CreateSingleItemOffer("56dff026d2720bb8668b4567", 999999, 3, 420, Money.ROUBLES, saria); // 5.45 BS
-        assortUtils.CreateSingleItemOffer("5a608bf24f39f98ffc77720e", 999999, 3, 480, Money.ROUBLES, saria); // 7.62x51 M62
-        assortUtils.CreateSingleItemOffer("5fd20ff893a8961fc660a954", 999999, 3, 650, Money.ROUBLES, saria); // .300 AP
+        assortUtils.CreateSingleItemOffer("5efb0da7a29a85116f6ea05f", 999999, 3, 360, Money.ROUBLES, saria); // 9x19 PBP
+        assortUtils.CreateSingleItemOffer("56dff026d2720bb8668b4567", 999999, 3, 470, Money.ROUBLES, saria); // 5.45 BS
+        assortUtils.CreateSingleItemOffer("5a608bf24f39f98ffc77720e", 999999, 3, 540, Money.ROUBLES, saria); // 7.62x51 M62
+        assortUtils.CreateSingleItemOffer("5fd20ff893a8961fc660a954", 999999, 3, 730, Money.ROUBLES, saria); // .300 AP
         #endregion
 
         #region LL3 Optics
-        assortUtils.CreateSingleItemOffer("618ba27d9008e4636a67f61d", 999999, 3, 145_000, Money.ROUBLES, saria); // Vortex Razor HD Gen.2
+        assortUtils.CreateSingleItemOffer("618ba27d9008e4636a67f61d", 999999, 3, 163_000, Money.ROUBLES, saria); // Vortex Razor HD Gen.2
         #endregion
 
         #region LL3 Weapon Presets
-        AddPresetByName("sig_mcx_spear_cqb", Money.ROUBLES, 175_000, 3);
-        AddPresetByName("SCARH MK17 CQC", Money.ROUBLES, 160_000, 3);
-        AddPresetByName("G28 Patrol", Money.ROUBLES, 185_000, 3);
+        AddPresetByName("sig_mcx_spear_cqb", Money.ROUBLES, 197_000, 3);
+        AddPresetByName("SCARH MK17 CQC", Money.ROUBLES, 180_000, 3);
+        AddPresetByName("G28 Patrol", Money.ROUBLES, 208_000, 3);
         #endregion
 
         #region LL3 Gear Presets
-        AddPresetByName("Vest FirstSpear Strandhogg Standard", Money.ROUBLES, 130_000, 3);
-        AddPresetByName("Body armor LBT 6094A Slick Plate Carrier Black Standard", Money.ROUBLES, 160_000, 3);
-        AddPresetByName("Helmet Ops Core Fast MT Black Standart", Money.ROUBLES, 75_000, 3);
+        AddPresetByName("Vest FirstSpear Strandhogg Standard", Money.ROUBLES, 146_000, 3);
+        AddPresetByName("Body armor LBT 6094A Slick Plate Carrier Black Standard", Money.ROUBLES, 180_000, 3);
+        AddPresetByName("Helmet Ops Core Fast MT Black Standart", Money.ROUBLES, 85_000, 3);
         #endregion
 
         // LL4 — crown: top ammo, NVG, meta kits, RShG
         #region LL4 Grenades
-        assortUtils.CreateSingleItemOffer("676bf44c5539167c3603e869", 999999, 4, 125_000, Money.ROUBLES, saria); // RShG-2
+        assortUtils.CreateSingleItemOffer("676bf44c5539167c3603e869", 999999, 4, 141_000, Money.ROUBLES, saria); // RShG-2
         #endregion
 
         #region LL4 Ammo
-        assortUtils.CreateSingleItemOffer("5c0d5e4486f77478390952fe", 999999, 4, 850, Money.ROUBLES, saria); // 5.45 PPBS Igolnik
-        assortUtils.CreateSingleItemOffer("59e690b686f7746c9f75e848", 999999, 4, 550, Money.ROUBLES, saria); // 5.56 M995
-        assortUtils.CreateSingleItemOffer("5a6086ea4f39f99cd479502f", 999999, 4, 780, Money.ROUBLES, saria); // 7.62x51 M61
+        assortUtils.CreateSingleItemOffer("5c0d5e4486f77478390952fe", 999999, 4, 960, Money.ROUBLES, saria); // 5.45 PPBS Igolnik
+        assortUtils.CreateSingleItemOffer("59e690b686f7746c9f75e848", 999999, 4, 620, Money.ROUBLES, saria); // 5.56 M995
+        assortUtils.CreateSingleItemOffer("5a6086ea4f39f99cd479502f", 999999, 4, 880, Money.ROUBLES, saria); // 7.62x51 M61
         #endregion
 
         #region LL4 Optics / NVG
-        assortUtils.CreateSingleItemOffer("5c0558060db834001b735271", 999999, 4, 280_000, Money.ROUBLES, saria); // GPNVG-18
+        assortUtils.CreateSingleItemOffer("5c0558060db834001b735271", 999999, 4, 315_000, Money.ROUBLES, saria); // GPNVG-18
         #endregion
 
         #region LL4 Weapon Presets
-        AddPresetByName("sig_mcx_spear_default", Money.ROUBLES, 240_000, 4);
-        AddPresetByName("birdeye_rsass", Money.ROUBLES, 260_000, 4);
-        AddPresetByName("M60E6_DEFAULT", Money.ROUBLES, 230_000, 4);
-        AddPresetByName("mjolnir_default", Money.ROUBLES, 220_000, 4);
+        AddPresetByName("sig_mcx_spear_default", Money.ROUBLES, 270_000, 4);
+        AddPresetByName("birdeye_rsass", Money.ROUBLES, 293_000, 4);
+        AddPresetByName("M60E6_DEFAULT", Money.ROUBLES, 259_000, 4);
+        AddPresetByName("mjolnir_default", Money.ROUBLES, 248_000, 4);
         #endregion
 
         #region LL4 Gear Presets
-        AddPresetByName("Body armor BNTI Zhuk 6a Standard", Money.ROUBLES, 210_000, 4);
-        AddPresetByName("Vest Ars Arma A18 Skanda Standard", Money.ROUBLES, 165_000, 4);
-        AddPresetByName("Helmet Crye Precision AirFrame Standart", Money.ROUBLES, 90_000, 4);
-        AddPresetByName("Helmet Maska 1 Sha Killa Standard", Money.ROUBLES, 100_000, 4);
+        AddPresetByName("Body armor BNTI Zhuk 6a Standard", Money.ROUBLES, 236_000, 4);
+        AddPresetByName("Vest Ars Arma A18 Skanda Standard", Money.ROUBLES, 186_000, 4);
+        AddPresetByName("Helmet Crye Precision AirFrame Standart", Money.ROUBLES, 101_000, 4);
+        AddPresetByName("Helmet Maska 1 Sha Killa Standard", Money.ROUBLES, 113_000, 4);
         #endregion
 
         #region LL4 Backpacks
-        assortUtils.CreateSingleItemOffer("5c0e774286f77468413cc5b2", 999999, 4, 120_000, Money.ROUBLES, saria); // Blackjack 50
+        assortUtils.CreateSingleItemOffer("5c0e774286f77468413cc5b2", 999999, 4, 135_000, Money.ROUBLES, saria); // Blackjack 50
         #endregion
 
         if (_modConfig?.RandomizeStockCount == true)
