@@ -23,6 +23,15 @@
   </ItemGroup>
 
   <Target Name="PostBuild" AfterTargets="PostBuildEvent">
-    <Exec Command="copy &quot;$(TargetPath)&quot; &quot;$(ProjectDir)\Build\SPT\user\mods\Saria\$(TargetFileName)&quot;" />
+    <PropertyGroup>
+      <_ModOut>$(ProjectDir)Build/SPT/user/mods/Saria</_ModOut>
+    </PropertyGroup>
+    <MakeDir Directories="$(_ModOut)" />
+    <Copy SourceFiles="$(TargetPath)" DestinationFolder="$(_ModOut)" />
+    <Copy SourceFiles="$(ProjectDir)config.json" DestinationFolder="$(_ModOut)" />
+    <ItemGroup>
+      <_AssetFiles Include="$(ProjectDir)Assets/**/*.*" />
+    </ItemGroup>
+    <Copy SourceFiles="@(_AssetFiles)" DestinationFolder="$(_ModOut)/Assets/%(RecursiveDir)" />
   </Target>
 </Project>
