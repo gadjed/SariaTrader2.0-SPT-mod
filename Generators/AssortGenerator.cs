@@ -124,6 +124,7 @@ public class SariaAssortGenerator(
         assortUtils.CreateSingleItemOffer("55d482194bdc2d1d4e8b456b", 999999, 1, 36_000, Money.ROUBLES, saria); // 5.45 6L31 60
         assortUtils.CreateSingleItemOffer("5aaa5dfee5b5b000140293d3", 999999, 1, 9_000, Money.ROUBLES, saria); // 5.56 PMAG 30 GEN M3
         assortUtils.CreateSingleItemOffer("59c1383d86f774290a37e0ca", 999999, 1, 43_000, Money.ROUBLES, saria); // 5.56/.300 PMAG D-60
+        assortUtils.CreateSingleItemOffer("544a37c44bdc2d25388b4567", 999999, 1, 38_000, Money.ROUBLES, saria); // 5.56 SureFire MAG5-60
         assortUtils.CreateSingleItemOffer("5a3501acc4a282000d72293a", 999999, 1, 25_000, Money.ROUBLES, saria); // 7.62x51 PMAG 20 SR-LR
         assortUtils.CreateSingleItemOffer("6761770e48fa5c377e06fc3c", 999999, 1, 51_000, Money.ROUBLES, saria); // 7.62x51 X-25 50 drum
         #endregion
@@ -186,6 +187,10 @@ public class SariaAssortGenerator(
         AddPresetByName("Helmet HighCom Striker ACHHC IIIA Black Standart", Money.ROUBLES, 62_000, 2);
         #endregion
 
+        #region LL2 Face covers
+        assortUtils.CreateSingleItemOffer("6570aead4d84f81fd002a033", 999999, 2, 55_000, Money.ROUBLES, saria); // Death Shadow armored mask
+        #endregion
+
         #region LL2 Backpacks
         assortUtils.CreateSingleItemOffer("545cdae64bdc2d39198b4568", 999999, 2, 62_000, Money.ROUBLES, saria); // Tri-Zip
         #endregion
@@ -195,6 +200,7 @@ public class SariaAssortGenerator(
         assortUtils.CreateSingleItemOffer("60098ad7c2240c0fe85c570a", 999999, 3, 54_000, Money.ROUBLES, saria); // AFAK
         assortUtils.CreateSingleItemOffer("5c0e533786f7747fa23f4d47", 999999, 3, 36_000, Money.ROUBLES, saria); // Zagustin
         assortUtils.CreateSingleItemOffer("5c0e534186f7747fa1419867", 999999, 3, 62_000, Money.ROUBLES, saria); // eTG-change
+        assortUtils.CreateSingleItemOffer("637b6179104668754b72f8f5", 999999, 3, 75_000, Money.ROUBLES, saria); // PNB (Product 16)
         #endregion
 
         #region LL3 Grenades
@@ -202,6 +208,12 @@ public class SariaAssortGenerator(
         assortUtils.CreateSingleItemOffer("618a431df1eb8e24b8741deb", 999999, 3, 28_000, Money.ROUBLES, saria); // RGO
         assortUtils.CreateSingleItemOffer("5656eb674bdc2d35148b457c", 999999, 3, 16_000, Money.ROUBLES, saria); // VOG-25
         assortUtils.CreateSingleItemOffer("62e7e7bbe6da9612f743f1e0", 999999, 3, 62_000, Money.ROUBLES, saria); // GP-25
+        assortUtils.CreateSingleItemOffer("5ede474b0c226a66f5402622", 999999, 3, 18_000, Money.ROUBLES, saria); // 40x46 M381
+        assortUtils.CreateSingleItemOffer("5ede475b549eed7c6d5c18fb", 999999, 3, 8_000, Money.ROUBLES, saria); // 40x46 M386
+        assortUtils.CreateSingleItemOffer("5ede4739e0350d05467f73e8", 999999, 3, 12_000, Money.ROUBLES, saria); // 40x46 M406
+        assortUtils.CreateSingleItemOffer("5f0c892565703e5c461894e9", 999999, 3, 22_000, Money.ROUBLES, saria); // 40x46 M433 HEDP
+        assortUtils.CreateSingleItemOffer("5ede47405b097655935d7d16", 999999, 3, 16_000, Money.ROUBLES, saria); // 40x46 M441
+        assortUtils.CreateSingleItemOffer("5ede475339ee016e8c534742", 999999, 3, 14_000, Money.ROUBLES, saria); // 40x46 M576
         #endregion
 
         #region LL3 Ammo
@@ -227,9 +239,9 @@ public class SariaAssortGenerator(
         AddPresetByName("Helmet Ops Core Fast MT Black Standart", Money.ROUBLES, 85_000, 3);
         #endregion
 
-        // LL4 — crown: top ammo, NVG, meta kits, RShG
+        // LL4 — crown: top ammo, NVG, meta kits, loaded RShG, Kappa
         #region LL4 Grenades
-        assortUtils.CreateSingleItemOffer("676bf44c5539167c3603e869", 999999, 4, 141_000, Money.ROUBLES, saria); // RShG-2
+        AddPresetByName("rshg2_std", Money.ROUBLES, 141_000, 4); // RShG-2 loaded (ShG-2 in chamber)
         #endregion
 
         #region LL4 Ammo
@@ -256,8 +268,9 @@ public class SariaAssortGenerator(
         AddPresetByName("Helmet Maska 1 Sha Killa Standard", Money.ROUBLES, 113_000, 4);
         #endregion
 
-        #region LL4 Backpacks
+        #region LL4 Backpacks / Containers
         assortUtils.CreateSingleItemOffer("5c0e774286f77468413cc5b2", 999999, 4, 135_000, Money.ROUBLES, saria); // Blackjack 50
+        assortUtils.CreateSingleItemOffer("5c093ca986f7740a1867ab12", 999999, 4, 70_000_000, Money.ROUBLES, saria); // Kappa
         #endregion
 
         if (_modConfig?.RandomizeStockCount == true)

@@ -1,12 +1,12 @@
 # Saria Trader 2.0
 
-**SPT 4.0 Compatible**
+**SPT 4.0.13 Compatible**
 
 Server mod that adds the custom trader **Saria** with a rebalanced loyalty-level assort (meds, ammo, grenades, weapons, gear).
 
 Fork of [nameless / KillerDJLang — Saria 4.x.x](https://github.com/KillerDJLang/Saria-4.x.x) with a rewritten shop progression and pricing.
 
-Developed and tested against **SPT 4.0**.
+Developed and tested against **SPT 4.0.13**.
 
 [Latest release](https://github.com/gadjed/SariaTrader2.0-SPT-mod/releases/latest) · [License: MIT](LICENSE)
 
@@ -28,15 +28,15 @@ Developed and tested against **SPT 4.0**.
 ## Install
 
 1. Download `SariaTrader2.0-*.zip` from [Releases](https://github.com/gadjed/SariaTrader2.0-SPT-mod/releases)
-2. Extract the archive into your **SPT game root** (the folder that contains `SPT.Server.exe` / `user/`)
+2. Extract the archive into your **SPT game root** (the folder that contains `SPT/` and `BepInEx/`)
 3. Restart the SPT server
 
-The zip already contains the correct paths:
+The zip already contains the correct Forge paths:
 
 ```text
-user/mods/Saria/nameless-saria.dll
-user/mods/Saria/config.json
-user/mods/Saria/Assets/...
+SPT/user/mods/Saria/nameless-saria.dll
+SPT/user/mods/Saria/config.json
+SPT/user/mods/Saria/Assets/...
 ```
 
 On startup the server log should show:
@@ -45,7 +45,7 @@ On startup the server log should show:
 [Saria] Mission accomplished, returning to base.
 ```
 
-> If you previously used the original Saria mod, replace `user/mods/Saria/` with this build (same folder name).
+> If you previously used the original Saria mod, replace `SPT/user/mods/Saria/` (or legacy `user/mods/Saria/`) with this build.
 
 ## Config
 
