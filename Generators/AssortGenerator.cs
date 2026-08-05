@@ -167,6 +167,7 @@ public class SariaAssortGenerator(
         assortUtils.CreateSingleItemOffer("59e0d99486f7744a32234762", 999999, 2, 340, Money.ROUBLES, saria); // 7.62x39 BP
         assortUtils.CreateSingleItemOffer("58dd3ad986f77403051cba8f", 999999, 2, 380, Money.ROUBLES, saria); // 7.62x51 M80
         assortUtils.CreateSingleItemOffer("619636be6db0f2477964e710", 999999, 2, 430, Money.ROUBLES, saria); // .300 M62
+        assortUtils.CreateSingleItemOffer("6529302b8c26af6326029fb7", 999999, 2, 500, Money.ROUBLES, saria); // 6.8x51 SIG FMJ
         #endregion
 
         #region LL2 Optics
@@ -223,6 +224,11 @@ public class SariaAssortGenerator(
         assortUtils.CreateSingleItemOffer("5fd20ff893a8961fc660a954", 999999, 3, 730, Money.ROUBLES, saria); // .300 AP
         #endregion
 
+        #region LL3 Magazines (SPEAR 6.8 / AR-10 Lancer)
+        assortUtils.CreateSingleItemOffer("65293c38fc460e50a509cb25", 999999, 3, 28_000, Money.ROUBLES, saria); // Lancer L7AWM 20
+        assortUtils.CreateSingleItemOffer("65293c7a17e14363030ad308", 999999, 3, 38_000, Money.ROUBLES, saria); // Lancer L7AWM 25
+        #endregion
+
         #region LL3 Optics
         assortUtils.CreateSingleItemOffer("618ba27d9008e4636a67f61d", 999999, 3, 163_000, Money.ROUBLES, saria); // Vortex Razor HD Gen.2
         #endregion
@@ -248,6 +254,7 @@ public class SariaAssortGenerator(
         assortUtils.CreateSingleItemOffer("5c0d5e4486f77478390952fe", 999999, 4, 960, Money.ROUBLES, saria); // 5.45 PPBS Igolnik
         assortUtils.CreateSingleItemOffer("59e690b686f7746c9f75e848", 999999, 4, 620, Money.ROUBLES, saria); // 5.56 M995
         assortUtils.CreateSingleItemOffer("5a6086ea4f39f99cd479502f", 999999, 4, 880, Money.ROUBLES, saria); // 7.62x51 M61
+        assortUtils.CreateSingleItemOffer("6529243824cbe3c74a05e5c1", 999999, 4, 1_050, Money.ROUBLES, saria); // 6.8x51 SIG Hybrid
         #endregion
 
         #region LL4 Optics / NVG

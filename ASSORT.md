@@ -53,6 +53,7 @@
 | 7.62x39 BP | 7.62x39 мм БП гж | 340 ₽ |
 | 7.62x51 M80 | 7.62x51 мм M80 | 380 ₽ |
 | .300 M62 | .300 Blackout M62 | 430 ₽ |
+| 6.8x51 SIG FMJ | 6.8x51 мм SIG FMJ | 500 ₽ |
 | S&B PM II 1-8x24 | Оптический прицел Schmidt & Bender PM II 1-8x24 | 107 000 ₽ |
 | HK416 | Автомат HK 416A5 | 124 000 ₽ |
 | M4A1 USASOC2 | Автомат M4A1 USASOC | 141 000 ₽ |
@@ -87,6 +88,8 @@
 | 5.45 BS | 5.45x39 мм БС гс | 470 ₽ |
 | 7.62x51 M62 | 7.62x51 мм M62 | 540 ₽ |
 | .300 AP | .300 Blackout AP | 730 ₽ |
+| L7AWM 20 | Магазин AR-10 Lancer L7AWM на 20 патронов | 28 000 ₽ |
+| L7AWM 25 | Магазин AR-10 Lancer L7AWM на 25 патронов | 38 000 ₽ |
 | Vortex Razor HD Gen.2 | Оптический прицел Vortex Razor HD Gen.2 1-6x24 | 163 000 ₽ |
 | SPEAR CQB | Автомат MCX SPEAR CQB | 197 000 ₽ |
 | SCAR-H CQC | Автомат FN SCAR-H CQC | 180 000 ₽ |
@@ -103,6 +106,7 @@
 | 5.45 PPBS Igolnik | 5.45x39 мм ППБС гс «Игольник» | 960 ₽ |
 | 5.56 M995 | 5.56x45 мм M995 | 620 ₽ |
 | 7.62x51 M61 | 7.62x51 мм M61 | 880 ₽ |
+| 6.8x51 SIG Hybrid | 6.8x51 мм SIG Hybrid | 1 050 ₽ |
 | GPNVG-18 | ПНВ L3Harris GPNVG-18 | 315 000 ₽ |
 | SPEAR Default | Автомат MCX SPEAR | 270 000 ₽ |
 | BirdEye RSASS | Марксманская винтовка Remington R11 RSASS | 293 000 ₽ |
@@ -118,7 +122,8 @@
 ## Логіка прогресії
 
 - **Медицина** — LL1: базове + CMS; LL2: IFAK / Surv12 / Propital / CALOK-B; LL3: AFAK / eTG / Zagustin / PNB
-- **Набої** — 9 / 5.45 / 5.56 / 7.62x51 / .300; корона: Игольник, M995, M61
+- **Набої** — 9 / 5.45 / 5.56 / 7.62x51 / .300 / 6.8; корона: Игольник, M995, M61, SIG Hybrid
+- **Магазини SPEAR** — LL3: Lancer L7AWM 20 / 25
 - **Рюкзаки / контейнери** — LL2: Tri-Zip; корона: Blackjack 50, Kappa (70кк)
 - **Приціли / ПНВ** — UH-1 → PM II 1-8 → Razor HD Gen.2 → GPNVG-18
 - **Підствольні** — LL3: GP-25 + усі 40x46 (M381/M386/M406/M433/M441/M576) + VOG-25
