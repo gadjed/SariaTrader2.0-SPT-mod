@@ -144,6 +144,7 @@ public class SariaAssortGenerator(
         #region LL1 Gear Presets
         AddPresetByName("Helmet LShZ Standart", Money.ROUBLES, 40_000, 1);
         AddPresetByName("Helmet Diamond Age Bastion Standart", Money.ROUBLES, 62_000, 1);
+        assortUtils.CreateSingleItemOffer("5648a69d4bdc2ded0b8b457b", 999999, 1, 52_000, Money.ROUBLES, saria); // BlackRock Gray
         AddPresetByName("Vest ANA Tactical M1 Standard", Money.ROUBLES, 79_000, 1);
         #endregion
 

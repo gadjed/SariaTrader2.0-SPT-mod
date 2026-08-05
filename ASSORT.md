@@ -35,6 +35,7 @@
 | Remington M700 AICS | Винтовка Remington M700 AICS | 99 000 ₽ |
 | Helmet LShZ | Шлем ЛШЗ | 40 000 ₽ |
 | Helmet Bastion | Шлем Diamond Age Bastion | 62 000 ₽ |
+| BlackRock | Разгрузка BlackRock (серая) | 52 000 ₽ |
 | Vest ANA M1 | Разгрузка ANA Tactical M1 | 79 000 ₽ |
 
 ## LL2 — середній бій
